@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    
+    padding: 0;
+    height: 100vh;
+    background: url(/img/fondo\ huellas\ mascota.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    border-radius: 2px;
+    color: rgb(193, 206, 85);
+    font-size: 40px;
+
+}
+
+.contenedor{
+    
+    width: 60vw;
+    height: 20vh;
+    margin:100px 270px;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+}
+
+#fondo{
+    background:rgba(5, 7, 12, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3em 3em;
+    
+}
+
+
+
+.botones{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    margin-left: 40%;
+    gap: 20px;
+    width: 10vw;
+}
+
+label{
+    margin-top: 10px;
+    color: #fbf9f9;
+    display: block;
+    font-weight: 800;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+input, button, select {
+    margin-top: 0.2em;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+
